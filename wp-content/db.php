@@ -33,7 +33,7 @@ else if( file_exists( ABSPATH.'/wp-content/plugins/pg4wp'))
 else if( file_exists( ABSPATH.'/pg4wp'))
 	define( 'PG4WP_ROOT', ABSPATH.'/pg4wp');
 else
-	die('PG4WP file directory not found');
+	die('PG4WP file directory not found'.ABSPATH);
 
 // Here happens all the magic
 require_once( PG4WP_ROOT.'/core.php');
