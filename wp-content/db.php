@@ -26,12 +26,12 @@ define( 'PG4WP_INSECURE', false);
 
 // This defines the directory where PG4WP files are loaded from
 //   3 places checked : wp-content, wp-content/plugins and the base directory
-if( file_exists( ABSPATH.'/wp-content/pg4wp'))
-	define( 'PG4WP_ROOT', ABSPATH.'/wp-content/pg4wp');
-else if( file_exists( ABSPATH.'/wp-content/plugins/pg4wp'))
-	define( 'PG4WP_ROOT', ABSPATH.'/wp-content/plugins/pg4wp');
-else if( file_exists( ABSPATH.'/pg4wp'))
-	define( 'PG4WP_ROOT', ABSPATH.'/pg4wp');
+if( file_exists( ABSPATH.'../wp-content/pg4wp'))
+	define( 'PG4WP_ROOT', ABSPATH.'../wp-content/pg4wp');
+else if( file_exists( ABSPATH.'../wp-content/plugins/pg4wp'))
+	define( 'PG4WP_ROOT', ABSPATH.'../wp-content/plugins/pg4wp');
+else if( file_exists( ABSPATH.'../pg4wp'))
+	define( 'PG4WP_ROOT', ABSPATH.'../pg4wp');
 else
 	die('PG4WP file directory not found');
 
