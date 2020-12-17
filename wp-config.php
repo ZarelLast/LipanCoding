@@ -31,7 +31,7 @@ define( 'DB_USER', 'id15705839_admin' );
 define( 'DB_PASSWORD', 'G8rekt4b8m8!' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'databases.000webhost.com' );
+define( 'DB_HOST', 'lipancoding.000webhostapp.com:3306' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
