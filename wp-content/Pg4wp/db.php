@@ -24,6 +24,7 @@ define( 'PG4WP_LOG_ERRORS', true);
 // change this to true
 define( 'PG4WP_INSECURE', false);
 
+define('ABSPATH', dirname(__FILE__));
 // This defines the directory where PG4WP files are loaded from
 //   3 places checked : wp-content, wp-content/plugins and the base directory
 if( file_exists( ABSPATH.'/wp-content/pg4wp'))
