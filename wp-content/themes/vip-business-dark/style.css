@@ -1,0 +1,251 @@
+/*
+Theme Name: Vip Business Dark
+Theme URI: https://fireflythemes.com/themes/vip-business-dark/
+Author: FireFly Themes
+Author URI: https://fireflythemes.com/
+Description: Vip Business Dark is our new Multipurpose child theme. Vip Business Dark inherits functionality and feature of its parent theme with an attractive, dark design. We have made few design changes in sections like slider, featured content and what we do sections. Vip Business Dark is also a Multipurpose WordPress theme which can be used in any kind if business. It has a dark bold look which will give a unique modern looking website. With customizable features and smooth design, it will attract new visitors too. On top of that, the theme has been optimized to load fast and is fully responsive, you can also import demo content with plugin one click demo importer. If you want more flexible functionality you can also choose to upgrade to premium version of the theme. Visit https://fireflythemes.com/support for support, https://fireflythemes.com/documentation/vip-business for theme documentation and https://fireflythemes.com/demo/vip-business for demo.
+Version: 1.0.2
+Requires at least: 5.3
+Tested up to: 5.6
+Requires PHP: 5.6
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/license-list.html#GNUGPLv3
+Text Domain: vip-business-dark
+Template: vip-business
+Tags: blog, news, portfolio, grid-layout, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Vip Business Dark Theme WordPress Theme, Copyright 2020 FireFly Themes
+Vip Business Dark Theme is distributed under the terms of the GNU GPL
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+.main-header-one .main-header-bottom.clear-fix,
+.main-header-one .main-header-bottom.clear-fix:after, .main-header-one .main-header-bottom.clear-fix:before {
+    background: #23282d;
+
+}
+.main-header-one #quick-contact a, .main-header-one #quick-contact a:visited, .main-header-one #quick-contact li {
+    color: #b1b1b1;
+}
+a.wwd-fonts-icon {
+    background: #2d2d2d;
+    color:#fff;
+
+}
+#custom-header::after {
+    background: #000000;
+}
+.main-header-one .main-header-top.clear-fix {
+    border-bottom: 3px solid #5c6c7b;
+}
+.section-teams .thumb-summary-wrap {
+    background: #100d1b;
+
+}
+.section-featured-grid .featured-grid-text-content {
+    background: #100d1b;
+
+}
+#search-container, #search-container:after, .archive .hentry-inner, .blog .hentry-inner, .dark-top-header, .hentry-inner, .sidebar .widget, .single-content-wraper,#breadcrumb,#respond {
+    background-color: #32373c;
+}
+textarea#comment, textarea {
+    background: transparent;
+    color: #fff;
+}
+.search-form input.search-field {
+    background: transparent;
+}
+body, #masthead.sticky-enabled.sticky-header, .sticky-enabled.sticky-header, .header-seven .site-branding:after,#masthead {
+    background: #23282d;
+}
+a.more-link, a.more-link:visited {
+    color: #fff;
+    background: #23282d;
+}
+.more-link:before {
+    background: #100d1b;
+    color: #fff;
+}
+#main-nav .main-navigation ul li a,
+#main-nav .main-navigation ul li a:visited,
+.cart-contents a,
+.cart-contents a:visited,
+#search-toggle,
+.section .section-top-subtitle,body, button, input, select, optgroup, textarea {
+    color: #cacaca;
+}
+.main-navigation ul ul, .main-navigation ul ul:before {
+    background: #27262a;
+}
+.section:nth-child(odd) {
+    background-color: #32373c;
+}
+.section:nth-child(even) {
+    background-color: #23282d;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #f9f9f9;
+}
+#masthead.sticky-enabled.sticky-header,
+.sticky-enabled.sticky-header,
+.header-five #masthead.sticky-enabled.sticky-header  {
+    background: #27262a;
+}
+.header-five #masthead {
+    background: none;
+}
+.social-nav ul li a:before {
+    color: #fff;
+}
+pre {
+    background: #635c5c;
+}
+.sidebar ul li a, .sidebar ul li a:visited {
+    color: #ebebeb;
+}
+.section-wwd .wwd-block-inner,
+.section-teams .team-text-wrap,
+.section-testimonial .testimonial-wrapper,
+.section-latest-posts .latest-posts-text-content,
+.item-inner-wrapper .portfolio-content,
+.section-contact,.woocommerce ul.products li.product, .woocommerce-page ul.products li.product,.style-two .latest-posts-text-content-wrapper,.inner-block-shadow {
+    background-color: #100d1b;
+}
+.section-testimonial .testimonial-summary::after {
+    border-color: #100d1b transparent transparent;
+}
+.counter-section .counter-nos {
+    color: #ffffff;
+}
+.pricing-section .plan-inner {
+    background: #100d1b;
+    overflow: hidden;
+}
+.pricing-section .pricing-plan-item {
+    color: #f1f1f1;
+}
+.blog .entry-container, .archive .entry-container {
+    background: #32373c;
+
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+    color: #ffffff;
+    text-decoration: inherit;
+}
+a:visited, a,.entry-title a, .entry-title a:visited {
+    color: #ffffff;
+}
+#breadcrumb {
+    color: #3368c6;
+}#breadcrumb li a, .bcn-breadctumb > span a {
+    color: #fff;
+}
+#breadcrumb li {
+    border-right: 1px solid #dddddd3d;
+
+}
+#hero-slider.overlay-enabled article:before,.section.overlay-enabled:after,#custom-header::after {
+    opacity: 0.5;
+
+}
+.style-two .wwd-block-item a.wwd-icon {
+	background:none;
+}
+.search-form .search-submit:hover, .search-form .search-submit:focus, .search-form .search-submit:active,.search-form .search-submit {
+    background: none;
+    color: #fff;
+}
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="url"], .wpcf7 input[type="password"], .wpcf7 input[type="number"], .wpcf7 input[type="tel"], .wpcf7 input[type="range"], .wpcf7 input[type="date"], .wpcf7 input[type="month"], .wpcf7 input[type="week"], .wpcf7 input[type="time"], .wpcf7 input[type="datetime"], .wpcf7 input[type="datetime-local"], .wpcf7 input[type="color"], .wpcf7 textarea {
+    padding: 8px 15px;
+    border-color: #b9b9b9;
+    background: transparent;
+    color: #fff;
+}
+.woocommerce ul.products li.product .price {
+    color: #ffffff;
+}
+.woocommerce table.shop_table {
+    border: 1px solid rgb(255 255 255 / 38%);
+}
+.woocommerce table.shop_table td {
+    border-top: 1px solid rgb(255 255 255 / 28%);
+
+}input#coupon_code {
+    margin: 10px;
+    width: 180px!important;
+}
+#top-header #site-top-header-mobile-container li a, #top-header #site-top-header-mobile-container li a:hover, #top-header #site-top-header-mobile-container li a:focus, #top-header #site-top-header-mobile-container, #top-header #site-top-header-mobile-container p, #top-header #site-top-header-mobile-container li {
+    color: #f1ecec;
+}
+a:hover, a:focus, a:active {
+    color: #3368c6;
+}
+.site-title a, .site-title a:visited {
+    color: #fff;
+}
+
+.site-title a, .site-title a:visited {
+    color: #fff;
+}
+.site-title a:hover, .site-title a:focus,
+.site-title a:active {
+	color:#3368c6;
+}
+.nav-inner-wrapper.nav-black-bg {
+    background: #313132;
+}
+#quick-contact.layout-two a, #quick-contact.layout-two a:visited, #quick-contact.layout-two, #quick-contact.layout-two li {
+    color: #e1e1e1;
+}
+#quick-contact.layout-two a:active, #quick-contact.layout-two a:hover, #quick-contact.layout-two a:focus {
+    color: #3368c6;
+}
+.header-five #masthead .site-header-main {
+    background: #171717;
+
+}
+#main-nav .main-navigation ul li a:hover, #main-nav .main-navigation ul li a:focus, #main-nav .main-navigation ul li a:active,.widget .tagcloud a {
+    color: #fff;
+}
+#main-nav .nav-box-shadow {
+    background: #4f5152;
+}
+textarea:hover, textarea:focus, textarea:active {
+    border: 1px solid #3368c6;
+}
+@media screen and (min-width: 910px){
+.main-navigation ul li.current-menu-item > a, .main-navigation ul li.current-menu-ancestor > a, .main-navigation ul li.current_page_item > a, .main-navigation ul li:hover > a, .main-navigation ul li:hover > a, .main-navigation ul li:hover > a, .nav-inner-wrapper.nav-black-bg .main-navigation ul li.current-menu-item > a, .nav-inner-wrapper.nav-black-bg .main-navigation ul li.current-menu-ancestor > a, .nav-inner-wrapper.nav-black-bg .main-navigation ul li.current_page_item > a, .nav-inner-wrapper.nav-black-bg .main-navigation ul li:hover > a, .nav-inner-wrapper.nav-black-bg .main-navigation ul li:hover > a, .nav-inner-wrapper.nav-black-bg .main-navigation ul li:hover > a {
+    color: #3368c6;
+}
+}
+@media screen and (max-width: 909px){
+.site-primary-menu {
+    background: #27262a;
+
+}
+#header-top-toggle {
+    color: #fff;
+}
+.site-top-header-mobile,#site-top-header-mobile-container {
+    background: #222;
+}
+.dropdown-toggle {
+    color: #fff;
+}
+#quick-contact a, #quick-contact a:visited, #quick-contact, #quick-contact li {
+    display: inline-block;
+    color: #ffffff;
+}
+#top-header #site-top-header-mobile-container .social-nav ul li a:before {
+    color: #f5f5f5;
+}
+}
+@media screen and (min-width: 1900px){
+#page {
+    box-shadow: none;
+}
+}
